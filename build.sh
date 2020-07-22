@@ -1,35 +1,5 @@
 sudo python3 build.py \
-	-f /home/micno/debian/filesystem.squashfs\
-	-a /home/micno/micnokit/Micno.svg /usr/share/pixmaps/\
-	-a /home/micno/micnokit/bigga.svg /usr/share/pixmaps/\
-	-a /home/micno/micnokit/bigga-starter /usr/bin/\
-	-a /home/micno/micnokit/.config /etc/skel/\
-	-a /home/micno/micnokit/desktop-base/micno-theme /usr/share/desktop-base/\
-	-a /home/micno/micnokit/micno-theme /usr/share/plymouth/themes/\
-	-a /home/micno/micnokit/Simply_Circles_Red_Dark_Envolved /usr/share/themes/\
-	-a /home/micno/micnokit/Tela-circle-red /usr/share/icons/\
-	-a /home/micno/micnokit/Tela-circle-red-dark /usr/share/icons/\
-	-a /home/micno/micnokit/lightdm.conf /etc/lightdm/\
-	-a /home/micno/micnokit/lightdm-webkit2-greeter.conf /etc/lightdm/\
-	-a /home/micno/micnokit/lightdm-theme-micno /usr/share/lightdm-webkit/themes/\
-	-d /home/micno/micnokit/lightdm-webkit2-greeter_2.2.5-1+15.7_amd64.deb\
-	-d /home/micno/micnokit/linux-headers-5.6.14-zen_5.6.14-zen-1_amd64.deb\
-	-d /home/micno/micnokit/linux-image-5.6.14-zen_5.6.14-zen-1_amd64.deb\
-	-d /home/micno/micnokit/linux-libc-dev_5.6.14-zen-1_amd64.deb\
-	-i plank\
-	-i gparted\
-	-i grub-customizer\
-	-i rhythmbox\
-	-i vlc\
-	-i fcitx-mozc\
-	-p uim*\
-	-p xterm*\
-	-p ibus*\
-	-p xiterm+thai\
-	-p xfce4-dict\
-	-p mlterm*\
-	-p atril\
-	-p exfalso\
-	-p firefox-esr\
-	-p goldendict\
-	-p khmerconverter\
+	-f ./micno.Mflow\
+	-s /home/micno/debian/live/filesystem.squashfs\
+	-t /home/micno/micnokit/desktop-base/micno-theme\
+	-p /home/micno/micnokit/micno-theme\
