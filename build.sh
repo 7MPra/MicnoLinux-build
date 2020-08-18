@@ -12,7 +12,7 @@ fi
 mount *.iso BaseDisk/
 if [ ! -e Simply_Circles_Themes ];then
 	git clone https://github.com/ju1464/Simply_Circles_Themes.git
-	cp Simply_Circles_Themes/Xfce4-Metacity/Simply_Circles_Red/* Simply_Circles_Themes/GTK-Gnome/Red/Simply_Circles_Red_Dark_Envolved/
+	cp -r Simply_Circles_Themes/Xfce4-Metacity/Simply_Circles_Red/* Simply_Circles_Themes/GTK-Gnome/Red/Simply_Circles_Red_Dark_Envolved/
 fi
 if [ ! -e Tela-circle-red -a -e Tela-circle-red-dark ];then
 	git clone https://github.com/vinceliuice/Tela-circle-icon-theme.git

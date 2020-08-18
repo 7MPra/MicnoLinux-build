@@ -1,5 +1,5 @@
 favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,exo-mail-reader.desktop,exo-web-browser.desktop
-recent=exo-file-manager.desktop,exo-terminal-emulator.desktop
+recent=
 button-title=アプリケーション
 button-icon=Micno
 button-single-row=false
