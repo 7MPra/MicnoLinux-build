@@ -174,5 +174,6 @@ for r in flow:
 					f.write("{}\n".format(rr[1]))
 					print("run '{}'".format(rr[1]))
 		os.system("sudo chroot squashfs-root/ bash /tmp/runsquashfs.sh")
+		os.system("rm squashfs-root/tmp/runsquashfs.sh")
 
 os.system("mksquashfs ./squashfs-root/ filesystem.squashfs -comp xz")

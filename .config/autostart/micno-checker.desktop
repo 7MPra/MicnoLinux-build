@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=MSwitchChecker
+GenericName=Dock
+Comment=MicnoSwitcherでデスクトップモード(typeM)を選択した場合のみPlankを起動する
+Categories=Utility;
+Type=Application
+Exec=mswitch-checker
+Icon=/usr/share/pixmaps/switcher.svg
+Terminal=false
+NoDisplay=false

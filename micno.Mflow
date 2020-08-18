@@ -1,0 +1,56 @@
+deb /home/tenpura/MicnoLinux-build/kernel/linux-image-5.7.15-zen+-dbg_5.7.15-zen+-1_amd64.deb
+deb /home/tenpura/MicnoLinux-build/kernel/linux-headers-5.7.15-zen+_5.7.15-zen+-1_amd64.deb
+deb /home/tenpura/MicnoLinux-build/kernel/linux-libc-dev_5.7.15-zen+-1_amd64.deb
+deb /home/tenpura/MicnoLinux-build/kernel/linux-image-5.7.15-zen+_5.7.15-zen+-1_amd64.deb
+pge linux-image-4.19.0-10-amd64
+pge linux-headers-4.19.0-10-amd64
+pge linux-headers-4.19.0-10-common
+pge hunspell-*
+pge libreoffice*
+pge gimp*
+pge uim
+pge xterm*
+pge ibus*
+pge anthy*
+pge xiterm+thai
+pge mlterm*
+pge atril
+pge exfalso
+pge parole
+pge firefox-esr
+pge goldendict
+pge khmerconverter
+apt wget
+apt curl
+apt plank
+apt grub-customizer
+apt rhythmbox
+apt vlc
+apt fcitx-mozc
+apt python3-distutils
+pge xfce4-goodies
+apt mousepad
+apt ristretto
+apt xfce4-notifyd
+apt xfce4-screenshooter
+apt xfce4-taskmanager
+apt xfce4-terminal
+apt xfce4-datetime-plugin
+apt xfce4-genmon-plugin
+apt xfce4-mailwatch-plugin
+apt xfce4-pulseaudio-plugin
+apt xfce4-power-manager-plugins
+apt xfce4-wavelan-plugin
+apt xfce4-whiskermenu-plugin
+apt xfce4-weather-plugin
+apt thunar-archive-plugin
+apt thunar-media-tags-plugin
+add ./.config /etc/skel/
+deb ./deb/lightdm-webkit2-greeter_2.2.5-1+15.8_amd64.deb
+deb ./deb/MicnoStarter.deb
+deb ./deb/MicnoSwitcher.deb
+deb ./deb/MicnoTheme.deb
+deb ./deb/lightdm-theme-micno.deb
+add ./Simply_Circles_Themes/GTK-Gnome/Red/Simply_Circles_Red_Dark_Envolved/ /usr/share/themes/
+add ./Tela-circle-red /usr/share/icons/
+add ./Tela-circle-red-dark /usr/share/icons/
