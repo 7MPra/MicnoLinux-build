@@ -14,7 +14,7 @@ if [ ! -e Simply_Circles_Themes ];then
 	git clone https://github.com/ju1464/Simply_Circles_Themes.git
 	cp -r Simply_Circles_Themes/Xfce4-Metacity/Simply_Circles_Red/* Simply_Circles_Themes/GTK-Gnome/Red/Simply_Circles_Red_Dark_Envolved/
 fi
-if [ ! -e Tela-circle-red -a -e Tela-circle-red-dark ];then
+if [ ! -e Tela-circle-red -a ! -e Tela-circle-red-dark ];then
 	git clone https://github.com/vinceliuice/Tela-circle-icon-theme.git
 	./Tela-circle-icon-theme/install.sh -d ./ red
 	cp Tela-circle-icon-theme/COPYING ./Tela-circle-red
@@ -120,6 +120,7 @@ apt xfce4-whiskermenu-plugin
 apt xfce4-weather-plugin
 apt thunar-archive-plugin
 apt thunar-media-tags-plugin
+add ./pixmaps/Micno.svg /usr/share/pixmaps/
 add ./.config /etc/skel/
 deb ./deb/lightdm-webkit2-greeter_2.2.5-1+15.8_amd64.deb
 deb ./deb/MicnoStarter.deb
